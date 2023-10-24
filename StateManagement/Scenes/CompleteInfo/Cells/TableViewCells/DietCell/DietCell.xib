@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="133" id="KGk-i7-Jjw" customClass="DietCell" customModule="StateManagement" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Y3e-TA-SRw">
+                        <rect key="frame" x="20" y="20" width="280" height="93"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.dashed" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ihs-Rc-JmP">
+                                <rect key="frame" x="0.0" y="38.333333333333329" width="20" height="17.000000000000007"/>
+                                <color key="tintColor" name="colorHighlight"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="1SE-V1-Nz8"/>
+                                    <constraint firstAttribute="width" constant="20" id="Qwp-h4-Lsq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="None" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7XJ-Uh-cb9">
+                                <rect key="frame" x="28" y="35.666666666666664" width="44" height="21.666666666666664"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" name="colorHighlight"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ttw-W7-XQp">
+                                <rect key="frame" x="80" y="37.666666666666664" width="20" height="18.666666666666664"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="2Pe-CA-PXV"/>
+                                    <constraint firstAttribute="width" constant="20" id="kNK-Na-5gy"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOk-0V-bfb">
+                                <rect key="frame" x="108" y="0.0" width="172" height="93"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Y3e-TA-SRw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="UC3-GI-TJD"/>
+                    <constraint firstItem="Y3e-TA-SRw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="YSn-4W-Zy8"/>
+                    <constraint firstAttribute="bottom" secondItem="Y3e-TA-SRw" secondAttribute="bottom" constant="20" id="YYi-1c-uRj"/>
+                    <constraint firstAttribute="trailing" secondItem="Y3e-TA-SRw" secondAttribute="trailing" constant="20" id="gmX-FJ-SHN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="ivCheck" destination="Ihs-Rc-JmP" id="Qd3-pT-wTt"/>
+                <outlet property="ivInfo" destination="Ttw-W7-XQp" id="8VE-Ld-Kwt"/>
+                <outlet property="lblName" destination="7XJ-Uh-cb9" id="AJP-hy-bRB"/>
+            </connections>
+            <point key="canvasLocation" x="16.793893129770993" y="-9.5070422535211279"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="info.circle" catalog="system" width="128" height="123"/>
+        <image name="square.dashed" catalog="system" width="128" height="114"/>
+        <namedColor name="colorHighlight">
+            <color red="0.01396435519148404" green="0.10275310630554506" blue="0.19434097132731953" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

@@ -14,6 +14,45 @@
 		459E3AA52AE7C2E1007C1B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459E3AA42AE7C2E1007C1B24 /* Assets.xcassets */; };
 		459E3AA82AE7C2E1007C1B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459E3AA62AE7C2E1007C1B24 /* LaunchScreen.storyboard */; };
 		752E8B358FCB4CFCB34F672E /* Pods_StateManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1035238A6F809AB63CB5009D /* Pods_StateManagement.framework */; };
+		FA0E8BB62AE7C60B00ECDE58 /* diets.json in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BB32AE7C60B00ECDE58 /* diets.json */; };
+		FA0E8BB72AE7C60B00ECDE58 /* allergies.json in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BB42AE7C60B00ECDE58 /* allergies.json */; };
+		FA0E8BB82AE7C60B00ECDE58 /* health_concern.json in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BB52AE7C60B00ECDE58 /* health_concern.json */; };
+		FA0E8BBC2AE7C74400ECDE58 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BBA2AE7C74400ECDE58 /* WelcomeVC.swift */; };
+		FA0E8BBD2AE7C74400ECDE58 /* WelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BBB2AE7C74400ECDE58 /* WelcomeVC.xib */; };
+		FA0E8BC22AE7CB8A00ECDE58 /* CompleteInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BC02AE7CB8A00ECDE58 /* CompleteInfoVC.swift */; };
+		FA0E8BC32AE7CB8A00ECDE58 /* CompleteInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BC12AE7CB8A00ECDE58 /* CompleteInfoVC.xib */; };
+		FA0E8BCA2AE7CC7100ECDE58 /* CompleteInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BC92AE7CC7100ECDE58 /* CompleteInfoViewModel.swift */; };
+		FA0E8BCC2AE7CCC000ECDE58 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BCB2AE7CCC000ECDE58 /* BaseResponse.swift */; };
+		FA0E8BCE2AE7CD0700ECDE58 /* HealthConcernVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BCD2AE7CD0700ECDE58 /* HealthConcernVO.swift */; };
+		FA0E8BD02AE7CD4000ECDE58 /* DietVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BCF2AE7CD4000ECDE58 /* DietVO.swift */; };
+		FA0E8BD22AE7CD9F00ECDE58 /* AllergyVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BD12AE7CD9F00ECDE58 /* AllergyVO.swift */; };
+		FA0E8BD52AE7D04900ECDE58 /* InfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BD42AE7D04900ECDE58 /* InfoModel.swift */; };
+		FA0E8BDB2AE7D13200ECDE58 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BDA2AE7D13200ECDE58 /* ApiService.swift */; };
+		FA0E8BDE2AE7D5FA00ECDE58 /* CompleteInfoOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BDC2AE7D5FA00ECDE58 /* CompleteInfoOneVC.swift */; };
+		FA0E8BDF2AE7D5FA00ECDE58 /* CompleteInfoOneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BDD2AE7D5FA00ECDE58 /* CompleteInfoOneVC.xib */; };
+		FA0E8BE22AE7D60C00ECDE58 /* CompleteInfoTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BE02AE7D60C00ECDE58 /* CompleteInfoTwoVC.swift */; };
+		FA0E8BE32AE7D60C00ECDE58 /* CompleteInfoTwoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BE12AE7D60C00ECDE58 /* CompleteInfoTwoVC.xib */; };
+		FA0E8BE62AE7D61E00ECDE58 /* CompleteInfoThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BE42AE7D61E00ECDE58 /* CompleteInfoThreeVC.swift */; };
+		FA0E8BE72AE7D61E00ECDE58 /* CompleteInfoThreeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BE52AE7D61E00ECDE58 /* CompleteInfoThreeVC.xib */; };
+		FA0E8BEA2AE7D62F00ECDE58 /* CompleteInfoFourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BE82AE7D62F00ECDE58 /* CompleteInfoFourVC.swift */; };
+		FA0E8BEB2AE7D62F00ECDE58 /* CompleteInfoFourVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BE92AE7D62F00ECDE58 /* CompleteInfoFourVC.xib */; };
+		FA0E8BEF2AE7D7EC00ECDE58 /* UIPageViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BEE2AE7D7EC00ECDE58 /* UIPageViewController+Extension.swift */; };
+		FA0E8BF22AE7D9A400ECDE58 /* CompleteInfoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BF12AE7D9A400ECDE58 /* CompleteInfoDelegate.swift */; };
+		FA0E8BF92AE7DDAE00ECDE58 /* HealthConcernCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BF72AE7DDAE00ECDE58 /* HealthConcernCell.swift */; };
+		FA0E8BFA2AE7DDAE00ECDE58 /* HealthConcernCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BF82AE7DDAE00ECDE58 /* HealthConcernCell.xib */; };
+		FA0E8BFD2AE7DFAD00ECDE58 /* UICollectionViewLeftLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BFC2AE7DFAD00ECDE58 /* UICollectionViewLeftLayout.swift */; };
+		FA0E8BFF2AE7E09400ECDE58 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8BFE2AE7E09400ECDE58 /* UITableView+Extension.swift */; };
+		FA0E8C012AE7E0A000ECDE58 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8C002AE7E0A000ECDE58 /* UICollectionView+Extension.swift */; };
+		FA0E8C032AE7E79A00ECDE58 /* CollectionViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8C022AE7E79A00ECDE58 /* CollectionViewRow.swift */; };
+		FA0E8C072AE7EB0800ECDE58 /* HealthPrioritizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8C052AE7EB0800ECDE58 /* HealthPrioritizeCell.swift */; };
+		FA0E8C082AE7EB0800ECDE58 /* HealthPrioritizeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8C062AE7EB0800ECDE58 /* HealthPrioritizeCell.xib */; };
+		FA0E8C0C2AE7FD0200ECDE58 /* DietCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8C0A2AE7FD0200ECDE58 /* DietCell.swift */; };
+		FA0E8C0D2AE7FD0200ECDE58 /* DietCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8C0B2AE7FD0200ECDE58 /* DietCell.xib */; };
+		FA0E8C102AE81AA100ECDE58 /* MultipleChoiceVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8C0F2AE81AA100ECDE58 /* MultipleChoiceVO.swift */; };
+		FA0E8C142AE81C2000ECDE58 /* MultipleChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8C122AE81C2000ECDE58 /* MultipleChoiceCell.swift */; };
+		FA0E8C152AE81C2000ECDE58 /* MultipleChoiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8C132AE81C2000ECDE58 /* MultipleChoiceCell.xib */; };
+		FA0E8C192AE81DA100ECDE58 /* MCAnsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8C172AE81DA100ECDE58 /* MCAnsCell.swift */; };
+		FA0E8C1A2AE81DA100ECDE58 /* MCAnsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8C182AE81DA100ECDE58 /* MCAnsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +67,45 @@
 		459E3AA92AE7C2E1007C1B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7362C250C22880B19A6A22B7 /* Pods-StateManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateManagement.release.xcconfig"; path = "Target Support Files/Pods-StateManagement/Pods-StateManagement.release.xcconfig"; sourceTree = "<group>"; };
 		9737B43C088AE04BE103BC76 /* Pods-StateManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateManagement.debug.xcconfig"; path = "Target Support Files/Pods-StateManagement/Pods-StateManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0E8BB32AE7C60B00ECDE58 /* diets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = diets.json; sourceTree = "<group>"; };
+		FA0E8BB42AE7C60B00ECDE58 /* allergies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allergies.json; sourceTree = "<group>"; };
+		FA0E8BB52AE7C60B00ECDE58 /* health_concern.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = health_concern.json; sourceTree = "<group>"; };
+		FA0E8BBA2AE7C74400ECDE58 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		FA0E8BBB2AE7C74400ECDE58 /* WelcomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeVC.xib; sourceTree = "<group>"; };
+		FA0E8BC02AE7CB8A00ECDE58 /* CompleteInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteInfoVC.swift; sourceTree = "<group>"; };
+		FA0E8BC12AE7CB8A00ECDE58 /* CompleteInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteInfoVC.xib; sourceTree = "<group>"; };
+		FA0E8BC92AE7CC7100ECDE58 /* CompleteInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteInfoViewModel.swift; sourceTree = "<group>"; };
+		FA0E8BCB2AE7CCC000ECDE58 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseResponse.swift; path = StateManagement/Scenes/CompleteInfo/ViewModel/BaseResponse.swift; sourceTree = SOURCE_ROOT; };
+		FA0E8BCD2AE7CD0700ECDE58 /* HealthConcernVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HealthConcernVO.swift; path = StateManagement/Scenes/CompleteInfo/ViewModel/HealthConcernVO.swift; sourceTree = SOURCE_ROOT; };
+		FA0E8BCF2AE7CD4000ECDE58 /* DietVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DietVO.swift; path = StateManagement/Scenes/CompleteInfo/ViewModel/DietVO.swift; sourceTree = SOURCE_ROOT; };
+		FA0E8BD12AE7CD9F00ECDE58 /* AllergyVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllergyVO.swift; path = StateManagement/Scenes/CompleteInfo/ViewModel/AllergyVO.swift; sourceTree = SOURCE_ROOT; };
+		FA0E8BD42AE7D04900ECDE58 /* InfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModel.swift; sourceTree = "<group>"; };
+		FA0E8BDA2AE7D13200ECDE58 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		FA0E8BDC2AE7D5FA00ECDE58 /* CompleteInfoOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteInfoOneVC.swift; sourceTree = "<group>"; };
+		FA0E8BDD2AE7D5FA00ECDE58 /* CompleteInfoOneVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteInfoOneVC.xib; sourceTree = "<group>"; };
+		FA0E8BE02AE7D60C00ECDE58 /* CompleteInfoTwoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteInfoTwoVC.swift; sourceTree = "<group>"; };
+		FA0E8BE12AE7D60C00ECDE58 /* CompleteInfoTwoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteInfoTwoVC.xib; sourceTree = "<group>"; };
+		FA0E8BE42AE7D61E00ECDE58 /* CompleteInfoThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteInfoThreeVC.swift; sourceTree = "<group>"; };
+		FA0E8BE52AE7D61E00ECDE58 /* CompleteInfoThreeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteInfoThreeVC.xib; sourceTree = "<group>"; };
+		FA0E8BE82AE7D62F00ECDE58 /* CompleteInfoFourVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteInfoFourVC.swift; sourceTree = "<group>"; };
+		FA0E8BE92AE7D62F00ECDE58 /* CompleteInfoFourVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteInfoFourVC.xib; sourceTree = "<group>"; };
+		FA0E8BEE2AE7D7EC00ECDE58 /* UIPageViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIPageViewController+Extension.swift"; sourceTree = "<group>"; };
+		FA0E8BF12AE7D9A400ECDE58 /* CompleteInfoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteInfoDelegate.swift; sourceTree = "<group>"; };
+		FA0E8BF72AE7DDAE00ECDE58 /* HealthConcernCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthConcernCell.swift; sourceTree = "<group>"; };
+		FA0E8BF82AE7DDAE00ECDE58 /* HealthConcernCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HealthConcernCell.xib; sourceTree = "<group>"; };
+		FA0E8BFC2AE7DFAD00ECDE58 /* UICollectionViewLeftLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftLayout.swift; sourceTree = "<group>"; };
+		FA0E8BFE2AE7E09400ECDE58 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		FA0E8C002AE7E0A000ECDE58 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		FA0E8C022AE7E79A00ECDE58 /* CollectionViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewRow.swift; sourceTree = "<group>"; };
+		FA0E8C052AE7EB0800ECDE58 /* HealthPrioritizeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPrioritizeCell.swift; sourceTree = "<group>"; };
+		FA0E8C062AE7EB0800ECDE58 /* HealthPrioritizeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HealthPrioritizeCell.xib; sourceTree = "<group>"; };
+		FA0E8C0A2AE7FD0200ECDE58 /* DietCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietCell.swift; sourceTree = "<group>"; };
+		FA0E8C0B2AE7FD0200ECDE58 /* DietCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DietCell.xib; sourceTree = "<group>"; };
+		FA0E8C0F2AE81AA100ECDE58 /* MultipleChoiceVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceVO.swift; sourceTree = "<group>"; };
+		FA0E8C122AE81C2000ECDE58 /* MultipleChoiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceCell.swift; sourceTree = "<group>"; };
+		FA0E8C132AE81C2000ECDE58 /* MultipleChoiceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultipleChoiceCell.xib; sourceTree = "<group>"; };
+		FA0E8C172AE81DA100ECDE58 /* MCAnsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCAnsCell.swift; sourceTree = "<group>"; };
+		FA0E8C182AE81DA100ECDE58 /* MCAnsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MCAnsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +141,9 @@
 		459E3A9A2AE7C2DF007C1B24 /* StateManagement */ = {
 			isa = PBXGroup;
 			children = (
+				FA0E8BFB2AE7DF9900ECDE58 /* Components */,
+				FA0E8BEC2AE7D7D100ECDE58 /* Utils */,
+				FA0E8BD92AE7D11C00ECDE58 /* ApiService */,
 				459E3AB02AE7C2F6007C1B24 /* AppConfig */,
 				459E3AB32AE7C318007C1B24 /* Data */,
 				459E3AAF2AE7C2ED007C1B24 /* Scenes */,
@@ -76,6 +157,8 @@
 		459E3AAF2AE7C2ED007C1B24 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				FA0E8BBE2AE7CAF600ECDE58 /* CompleteInfo */,
+				FA0E8BB92AE7C71B00ECDE58 /* Welcome */,
 				459E3A9F2AE7C2DF007C1B24 /* ViewController.swift */,
 			);
 			path = Scenes;
@@ -93,6 +176,9 @@
 		459E3AB12AE7C2FF007C1B24 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FA0E8BB42AE7C60B00ECDE58 /* allergies.json */,
+				FA0E8BB32AE7C60B00ECDE58 /* diets.json */,
+				FA0E8BB52AE7C60B00ECDE58 /* health_concern.json */,
 				459E3AA42AE7C2E1007C1B24 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -110,6 +196,8 @@
 		459E3AB32AE7C318007C1B24 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				FA0E8BF02AE7D99100ECDE58 /* Delegates */,
+				FA0E8BD32AE7D03300ECDE58 /* Models */,
 				459E3AB42AE7C33F007C1B24 /* VOs */,
 			);
 			path = Data;
@@ -118,6 +206,11 @@
 		459E3AB42AE7C33F007C1B24 /* VOs */ = {
 			isa = PBXGroup;
 			children = (
+				FA0E8BCB2AE7CCC000ECDE58 /* BaseResponse.swift */,
+				FA0E8BCD2AE7CD0700ECDE58 /* HealthConcernVO.swift */,
+				FA0E8BCF2AE7CD4000ECDE58 /* DietVO.swift */,
+				FA0E8BD12AE7CD9F00ECDE58 /* AllergyVO.swift */,
+				FA0E8C0F2AE81AA100ECDE58 /* MultipleChoiceVO.swift */,
 			);
 			path = VOs;
 			sourceTree = "<group>";
@@ -128,7 +221,6 @@
 				9737B43C088AE04BE103BC76 /* Pods-StateManagement.debug.xcconfig */,
 				7362C250C22880B19A6A22B7 /* Pods-StateManagement.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,6 +230,206 @@
 				1035238A6F809AB63CB5009D /* Pods_StateManagement.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0E8BB92AE7C71B00ECDE58 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BBA2AE7C74400ECDE58 /* WelcomeVC.swift */,
+				FA0E8BBB2AE7C74400ECDE58 /* WelcomeVC.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		FA0E8BBE2AE7CAF600ECDE58 /* CompleteInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BF32AE7DD7300ECDE58 /* Cells */,
+				FA0E8BBF2AE7CB6B00ECDE58 /* CompleteInfoVC */,
+				FA0E8BC82AE7CC2300ECDE58 /* ViewModel */,
+				FA0E8BC42AE7CBF100ECDE58 /* CompleteInfoOne */,
+				FA0E8BC52AE7CC0700ECDE58 /* CompleteInfoTwo */,
+				FA0E8BC62AE7CC1100ECDE58 /* CompleteInfoThree */,
+				FA0E8BC72AE7CC1A00ECDE58 /* CompleteInfoFour */,
+			);
+			path = CompleteInfo;
+			sourceTree = "<group>";
+		};
+		FA0E8BBF2AE7CB6B00ECDE58 /* CompleteInfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BC02AE7CB8A00ECDE58 /* CompleteInfoVC.swift */,
+				FA0E8BC12AE7CB8A00ECDE58 /* CompleteInfoVC.xib */,
+			);
+			path = CompleteInfoVC;
+			sourceTree = "<group>";
+		};
+		FA0E8BC42AE7CBF100ECDE58 /* CompleteInfoOne */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BDC2AE7D5FA00ECDE58 /* CompleteInfoOneVC.swift */,
+				FA0E8BDD2AE7D5FA00ECDE58 /* CompleteInfoOneVC.xib */,
+			);
+			path = CompleteInfoOne;
+			sourceTree = "<group>";
+		};
+		FA0E8BC52AE7CC0700ECDE58 /* CompleteInfoTwo */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BE02AE7D60C00ECDE58 /* CompleteInfoTwoVC.swift */,
+				FA0E8BE12AE7D60C00ECDE58 /* CompleteInfoTwoVC.xib */,
+			);
+			path = CompleteInfoTwo;
+			sourceTree = "<group>";
+		};
+		FA0E8BC62AE7CC1100ECDE58 /* CompleteInfoThree */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BE42AE7D61E00ECDE58 /* CompleteInfoThreeVC.swift */,
+				FA0E8BE52AE7D61E00ECDE58 /* CompleteInfoThreeVC.xib */,
+			);
+			path = CompleteInfoThree;
+			sourceTree = "<group>";
+		};
+		FA0E8BC72AE7CC1A00ECDE58 /* CompleteInfoFour */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BE82AE7D62F00ECDE58 /* CompleteInfoFourVC.swift */,
+				FA0E8BE92AE7D62F00ECDE58 /* CompleteInfoFourVC.xib */,
+			);
+			path = CompleteInfoFour;
+			sourceTree = "<group>";
+		};
+		FA0E8BC82AE7CC2300ECDE58 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BC92AE7CC7100ECDE58 /* CompleteInfoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA0E8BD32AE7D03300ECDE58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BD42AE7D04900ECDE58 /* InfoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA0E8BD92AE7D11C00ECDE58 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BDA2AE7D13200ECDE58 /* ApiService.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		FA0E8BEC2AE7D7D100ECDE58 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BED2AE7D7D700ECDE58 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FA0E8BED2AE7D7D700ECDE58 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BEE2AE7D7EC00ECDE58 /* UIPageViewController+Extension.swift */,
+				FA0E8BFE2AE7E09400ECDE58 /* UITableView+Extension.swift */,
+				FA0E8C002AE7E0A000ECDE58 /* UICollectionView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA0E8BF02AE7D99100ECDE58 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BF12AE7D9A400ECDE58 /* CompleteInfoDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		FA0E8BF32AE7DD7300ECDE58 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BF52AE7DD8100ECDE58 /* TableViewCells */,
+				FA0E8BF42AE7DD7A00ECDE58 /* CollectionViewCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FA0E8BF42AE7DD7A00ECDE58 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BF62AE7DD8900ECDE58 /* HealthConcernCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		FA0E8BF52AE7DD8100ECDE58 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8C162AE81D8A00ECDE58 /* MCAnsCell */,
+				FA0E8C112AE81C0100ECDE58 /* MultipleChoiceCell */,
+				FA0E8C092AE7FCEB00ECDE58 /* DietCell */,
+				FA0E8C042AE7EAE800ECDE58 /* HealthPrioritizeCell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		FA0E8BF62AE7DD8900ECDE58 /* HealthConcernCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BF72AE7DDAE00ECDE58 /* HealthConcernCell.swift */,
+				FA0E8BF82AE7DDAE00ECDE58 /* HealthConcernCell.xib */,
+			);
+			path = HealthConcernCell;
+			sourceTree = "<group>";
+		};
+		FA0E8BFB2AE7DF9900ECDE58 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8BFC2AE7DFAD00ECDE58 /* UICollectionViewLeftLayout.swift */,
+				FA0E8C022AE7E79A00ECDE58 /* CollectionViewRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA0E8C042AE7EAE800ECDE58 /* HealthPrioritizeCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8C052AE7EB0800ECDE58 /* HealthPrioritizeCell.swift */,
+				FA0E8C062AE7EB0800ECDE58 /* HealthPrioritizeCell.xib */,
+			);
+			path = HealthPrioritizeCell;
+			sourceTree = "<group>";
+		};
+		FA0E8C092AE7FCEB00ECDE58 /* DietCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8C0A2AE7FD0200ECDE58 /* DietCell.swift */,
+				FA0E8C0B2AE7FD0200ECDE58 /* DietCell.xib */,
+			);
+			path = DietCell;
+			sourceTree = "<group>";
+		};
+		FA0E8C112AE81C0100ECDE58 /* MultipleChoiceCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8C122AE81C2000ECDE58 /* MultipleChoiceCell.swift */,
+				FA0E8C132AE81C2000ECDE58 /* MultipleChoiceCell.xib */,
+			);
+			path = MultipleChoiceCell;
+			sourceTree = "<group>";
+		};
+		FA0E8C162AE81D8A00ECDE58 /* MCAnsCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E8C172AE81DA100ECDE58 /* MCAnsCell.swift */,
+				FA0E8C182AE81DA100ECDE58 /* MCAnsCell.xib */,
+			);
+			path = MCAnsCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +492,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0E8BDF2AE7D5FA00ECDE58 /* CompleteInfoOneVC.xib in Resources */,
+				FA0E8BBD2AE7C74400ECDE58 /* WelcomeVC.xib in Resources */,
+				FA0E8BE32AE7D60C00ECDE58 /* CompleteInfoTwoVC.xib in Resources */,
+				FA0E8C1A2AE81DA100ECDE58 /* MCAnsCell.xib in Resources */,
+				FA0E8BC32AE7CB8A00ECDE58 /* CompleteInfoVC.xib in Resources */,
+				FA0E8C082AE7EB0800ECDE58 /* HealthPrioritizeCell.xib in Resources */,
 				459E3AA82AE7C2E1007C1B24 /* LaunchScreen.storyboard in Resources */,
+				FA0E8BEB2AE7D62F00ECDE58 /* CompleteInfoFourVC.xib in Resources */,
+				FA0E8BE72AE7D61E00ECDE58 /* CompleteInfoThreeVC.xib in Resources */,
+				FA0E8BB72AE7C60B00ECDE58 /* allergies.json in Resources */,
 				459E3AA52AE7C2E1007C1B24 /* Assets.xcassets in Resources */,
 				459E3AA32AE7C2DF007C1B24 /* Main.storyboard in Resources */,
+				FA0E8BFA2AE7DDAE00ECDE58 /* HealthConcernCell.xib in Resources */,
+				FA0E8C0D2AE7FD0200ECDE58 /* DietCell.xib in Resources */,
+				FA0E8BB82AE7C60B00ECDE58 /* health_concern.json in Resources */,
+				FA0E8C152AE81C2000ECDE58 /* MultipleChoiceCell.xib in Resources */,
+				FA0E8BB62AE7C60B00ECDE58 /* diets.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +561,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0E8BEF2AE7D7EC00ECDE58 /* UIPageViewController+Extension.swift in Sources */,
+				FA0E8C102AE81AA100ECDE58 /* MultipleChoiceVO.swift in Sources */,
+				FA0E8BC22AE7CB8A00ECDE58 /* CompleteInfoVC.swift in Sources */,
+				FA0E8BFF2AE7E09400ECDE58 /* UITableView+Extension.swift in Sources */,
+				FA0E8BD52AE7D04900ECDE58 /* InfoModel.swift in Sources */,
+				FA0E8BDB2AE7D13200ECDE58 /* ApiService.swift in Sources */,
+				FA0E8BD22AE7CD9F00ECDE58 /* AllergyVO.swift in Sources */,
+				FA0E8C0C2AE7FD0200ECDE58 /* DietCell.swift in Sources */,
+				FA0E8C032AE7E79A00ECDE58 /* CollectionViewRow.swift in Sources */,
 				459E3AA02AE7C2DF007C1B24 /* ViewController.swift in Sources */,
+				FA0E8C142AE81C2000ECDE58 /* MultipleChoiceCell.swift in Sources */,
+				FA0E8BFD2AE7DFAD00ECDE58 /* UICollectionViewLeftLayout.swift in Sources */,
+				FA0E8BDE2AE7D5FA00ECDE58 /* CompleteInfoOneVC.swift in Sources */,
 				459E3A9C2AE7C2DF007C1B24 /* AppDelegate.swift in Sources */,
+				FA0E8BCE2AE7CD0700ECDE58 /* HealthConcernVO.swift in Sources */,
+				FA0E8BF22AE7D9A400ECDE58 /* CompleteInfoDelegate.swift in Sources */,
+				FA0E8C012AE7E0A000ECDE58 /* UICollectionView+Extension.swift in Sources */,
 				459E3A9E2AE7C2DF007C1B24 /* SceneDelegate.swift in Sources */,
+				FA0E8BCC2AE7CCC000ECDE58 /* BaseResponse.swift in Sources */,
+				FA0E8BE62AE7D61E00ECDE58 /* CompleteInfoThreeVC.swift in Sources */,
+				FA0E8BBC2AE7C74400ECDE58 /* WelcomeVC.swift in Sources */,
+				FA0E8BCA2AE7CC7100ECDE58 /* CompleteInfoViewModel.swift in Sources */,
+				FA0E8BEA2AE7D62F00ECDE58 /* CompleteInfoFourVC.swift in Sources */,
+				FA0E8C072AE7EB0800ECDE58 /* HealthPrioritizeCell.swift in Sources */,
+				FA0E8C192AE81DA100ECDE58 /* MCAnsCell.swift in Sources */,
+				FA0E8BE22AE7D60C00ECDE58 /* CompleteInfoTwoVC.swift in Sources */,
+				FA0E8BF92AE7DDAE00ECDE58 /* HealthConcernCell.swift in Sources */,
+				FA0E8BD02AE7CD4000ECDE58 /* DietVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

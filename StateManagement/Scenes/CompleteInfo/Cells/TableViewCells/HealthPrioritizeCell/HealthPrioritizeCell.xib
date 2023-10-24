@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="HealthPrioritizeCell" customModule="StateManagement" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2nx-6b-Qbm">
+                        <rect key="frame" x="0.0" y="22" width="320" height="56"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AKU-5s-n7d">
+                                <rect key="frame" x="0.0" y="8" width="72.666666666666671" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qs0-h1-C6q">
+                                        <rect key="frame" x="15.999999999999996" y="0.0" width="40.666666666666657" height="40"/>
+                                        <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="colorHighlight"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bhf-tL-UNn"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="0.0" left="16" bottom="0.0" right="16"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="colorSecondary"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="56" id="onh-Lc-w8a"/>
+                            <constraint firstItem="AKU-5s-n7d" firstAttribute="leading" secondItem="2nx-6b-Qbm" secondAttribute="leading" id="s6l-kR-VaW"/>
+                            <constraint firstItem="AKU-5s-n7d" firstAttribute="centerY" secondItem="2nx-6b-Qbm" secondAttribute="centerY" id="za8-nK-GUR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="2nx-6b-Qbm" secondAttribute="trailing" id="5YI-Mq-JhL"/>
+                    <constraint firstItem="2nx-6b-Qbm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="AT9-zi-JKX"/>
+                    <constraint firstItem="2nx-6b-Qbm" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="UYc-HG-W9u"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="contentContainer" destination="2nx-6b-Qbm" id="cDY-27-H6t"/>
+                <outlet property="lblName" destination="qs0-h1-C6q" id="0mL-4o-hCo"/>
+                <outlet property="nameContainer" destination="AKU-5s-n7d" id="NXl-j1-D7R"/>
+            </connections>
+            <point key="canvasLocation" x="10.687022900763358" y="39.436619718309863"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="colorHighlight">
+            <color red="0.01396435519148404" green="0.10275310630554506" blue="0.19434097132731953" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="colorSecondary">
+            <color red="0.92000484435478946" green="1" blue="0.99828869894663608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

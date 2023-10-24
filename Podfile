@@ -8,6 +8,8 @@ target 'StateManagement' do
   # Pods for StateManagement
   pod 'RxSwift', '6.5.0'
   pod 'RxCocoa', '6.5.0'
+  pod 'SearchTextField'
+  pod 'EasyTipView', '~> 2.1'
 
   post_install do |pi|
     pi.pods_project.targets.each do |t|

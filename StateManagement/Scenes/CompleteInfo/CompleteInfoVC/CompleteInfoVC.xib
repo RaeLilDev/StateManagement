@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CompleteInfoVC" customModule="StateManagement" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="ggf-K4-DIn" id="DPp-oX-8cT"/>
+                <outlet property="progressBar" destination="nDP-o8-Qmy" id="044-Qt-OTg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ggf-K4-DIn">
+                    <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nDP-o8-Qmy">
+                    <rect key="frame" x="0.0" y="880" width="414" height="16"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" name="colorHighlight"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="K9T-rF-wU2"/>
+                    </constraints>
+                    <color key="progressTintColor" name="colorHighlight"/>
+                    <color key="trackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </progressView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="colorSecondary"/>
+            <constraints>
+                <constraint firstItem="ggf-K4-DIn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="6sZ-NI-DiW"/>
+                <constraint firstItem="ggf-K4-DIn" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="DEC-47-wdH"/>
+                <constraint firstItem="nDP-o8-Qmy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HNJ-am-sXp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ggf-K4-DIn" secondAttribute="bottom" id="KmI-5c-72b"/>
+                <constraint firstAttribute="trailing" secondItem="nDP-o8-Qmy" secondAttribute="trailing" id="SYM-eo-yWb"/>
+                <constraint firstAttribute="bottom" secondItem="nDP-o8-Qmy" secondAttribute="bottom" id="Yu5-DR-Uw0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ggf-K4-DIn" secondAttribute="trailing" id="wf4-GU-Rqt"/>
+            </constraints>
+            <point key="canvasLocation" x="30" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="colorHighlight">
+            <color red="0.011764705882352941" green="0.10196078431372549" blue="0.19215686274509805" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="colorSecondary">
+            <color red="0.91764705882352937" green="1" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
