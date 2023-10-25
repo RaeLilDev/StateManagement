@@ -14,6 +14,7 @@ class CompleteInfoTwoVC: UIViewController {
     @IBOutlet weak var tableViewDiet: UITableView!
     @IBOutlet weak var btnNext: UIButton!
     @IBOutlet weak var btnBack: UIButton!
+    @IBOutlet weak var lblDiet: UILabel!
     
     var viewModel: CompleteInfoViewModel!
     
@@ -31,6 +32,7 @@ class CompleteInfoTwoVC: UIViewController {
     
     private func setupView() {
         btnNext.layer.cornerRadius = 8.0
+        lblDiet.attributedText = "Select the diets you follow. *".highlightString()
     }
     
     private func setupTableView() {

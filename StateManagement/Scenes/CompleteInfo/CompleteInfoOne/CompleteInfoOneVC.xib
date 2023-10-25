@@ -15,6 +15,8 @@
                 <outlet property="collectionViewHealthConcern" destination="I3l-sg-e5E" id="74m-Cz-hx9"/>
                 <outlet property="heightHealthConcern" destination="IXH-tu-Kke" id="MWf-SE-Cru"/>
                 <outlet property="heightPrioritize" destination="t8m-f0-Gb2" id="H6N-SL-bAa"/>
+                <outlet property="lblHealthConcern" destination="QpH-tv-s6Z" id="adO-lk-aFE"/>
+                <outlet property="lblPrioritize" destination="PkG-Nd-NpP" id="Y5x-Ai-Uzz"/>
                 <outlet property="tableViewPrioritize" destination="ClF-WB-cwS" id="vcH-o0-5FN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -166,13 +168,13 @@
     </objects>
     <resources>
         <namedColor name="colorHighlight">
-            <color red="0.01396435519148404" green="0.10275310630554506" blue="0.19434097132731953" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.011764705882352941" green="0.10196078431372549" blue="0.19215686274509805" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="colorPrimary">
-            <color red="1" green="0.43538057740792568" blue="0.094124042113865047" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="1" green="0.43529411764705883" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="colorSecondary">
-            <color red="0.92000484435478946" green="1" blue="0.99828869894663608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.91764705882352937" green="1" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>

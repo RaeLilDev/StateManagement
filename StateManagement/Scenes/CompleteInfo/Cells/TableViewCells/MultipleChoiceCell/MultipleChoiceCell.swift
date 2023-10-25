@@ -30,13 +30,13 @@ class MultipleChoiceCell: UITableViewCell {
     }
 
     func bindQuestion(with data: MultipleChoiceVO) {
-        lblQues.text = data.question
+        lblQues.attributedText = (data.question ?? "").highlightString()
         self.multipleChoice = data
         updateTableViewHeight()
     }
     
     private func updateTableViewHeight() {
-        ansHeight.constant = CGFloat(64 * (multipleChoice?.options?.count ?? 0))
+        ansHeight.constant = CGFloat(56 * (multipleChoice?.options?.count ?? 0))
         self.tableViewAns.reloadData()
     }
 }
@@ -55,7 +55,7 @@ extension MultipleChoiceCell: UITableViewDataSource {
 
 extension MultipleChoiceCell: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 64.0
+        return 56.0
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

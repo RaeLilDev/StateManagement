@@ -12,6 +12,7 @@
             <connections>
                 <outlet property="btnBack" destination="THV-24-2eX" id="wDm-vR-2tr"/>
                 <outlet property="btnNext" destination="izQ-OJ-D0u" id="gOu-mC-WwG"/>
+                <outlet property="lblDiet" destination="HWN-8A-GmF" id="yDk-aI-lm6"/>
                 <outlet property="tableViewDiet" destination="bwO-Vq-dyS" id="0sW-Ec-AEm"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>

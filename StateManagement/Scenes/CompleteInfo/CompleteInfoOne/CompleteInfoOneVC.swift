@@ -17,6 +17,8 @@ class CompleteInfoOneVC: UIViewController {
     @IBOutlet weak var btnBack: UIButton!
     @IBOutlet weak var heightHealthConcern: NSLayoutConstraint!
     @IBOutlet weak var heightPrioritize: NSLayoutConstraint!
+    @IBOutlet weak var lblHealthConcern: UILabel!
+    @IBOutlet weak var lblPrioritize: UILabel!
     
     var viewModel: CompleteInfoViewModel!
     
@@ -48,6 +50,8 @@ class CompleteInfoOneVC: UIViewController {
     
     private func setupView() {
         btnNext.layer.cornerRadius = 8.0
+        lblHealthConcern.attributedText = "Select the top health concerns.* (Up to 5)".highlightString()
+        lblPrioritize.attributedText = "Prioritize".highlightString()
     }
     
     private func setupCollectionView() {

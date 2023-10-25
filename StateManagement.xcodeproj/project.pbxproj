@@ -13,6 +13,7 @@
 		459E3AA32AE7C2DF007C1B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459E3AA12AE7C2DF007C1B24 /* Main.storyboard */; };
 		459E3AA52AE7C2E1007C1B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459E3AA42AE7C2E1007C1B24 /* Assets.xcassets */; };
 		459E3AA82AE7C2E1007C1B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459E3AA62AE7C2E1007C1B24 /* LaunchScreen.storyboard */; };
+		459E3AB62AE89D4B007C1B24 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E3AB52AE89D4B007C1B24 /* String+Extension.swift */; };
 		752E8B358FCB4CFCB34F672E /* Pods_StateManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1035238A6F809AB63CB5009D /* Pods_StateManagement.framework */; };
 		FA0E8BB62AE7C60B00ECDE58 /* diets.json in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BB32AE7C60B00ECDE58 /* diets.json */; };
 		FA0E8BB72AE7C60B00ECDE58 /* allergies.json in Resources */ = {isa = PBXBuildFile; fileRef = FA0E8BB42AE7C60B00ECDE58 /* allergies.json */; };
@@ -65,6 +66,7 @@
 		459E3AA42AE7C2E1007C1B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459E3AA72AE7C2E1007C1B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459E3AA92AE7C2E1007C1B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459E3AB52AE89D4B007C1B24 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		7362C250C22880B19A6A22B7 /* Pods-StateManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateManagement.release.xcconfig"; path = "Target Support Files/Pods-StateManagement/Pods-StateManagement.release.xcconfig"; sourceTree = "<group>"; };
 		9737B43C088AE04BE103BC76 /* Pods-StateManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateManagement.debug.xcconfig"; path = "Target Support Files/Pods-StateManagement/Pods-StateManagement.debug.xcconfig"; sourceTree = "<group>"; };
 		FA0E8BB32AE7C60B00ECDE58 /* diets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = diets.json; sourceTree = "<group>"; };
@@ -338,6 +340,7 @@
 				FA0E8BEE2AE7D7EC00ECDE58 /* UIPageViewController+Extension.swift */,
 				FA0E8BFE2AE7E09400ECDE58 /* UITableView+Extension.swift */,
 				FA0E8C002AE7E0A000ECDE58 /* UICollectionView+Extension.swift */,
+				459E3AB52AE89D4B007C1B24 /* String+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -588,6 +591,7 @@
 				FA0E8C192AE81DA100ECDE58 /* MCAnsCell.swift in Sources */,
 				FA0E8BE22AE7D60C00ECDE58 /* CompleteInfoTwoVC.swift in Sources */,
 				FA0E8BF92AE7DDAE00ECDE58 /* HealthConcernCell.swift in Sources */,
+				459E3AB62AE89D4B007C1B24 /* String+Extension.swift in Sources */,
 				FA0E8BD02AE7CD4000ECDE58 /* DietVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
